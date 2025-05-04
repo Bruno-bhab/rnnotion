@@ -17,4 +17,14 @@ export const s = StyleSheet.create({
         fontSize: 16,
         flex: 1,
     },
+    list:{
+        backgroundColor: colors.gray[700],
+        borderRadius: 8,
+    },
+    separator: {
+        flex: 1,
+        height: 1,
+        backgroundColor: colors.gray[500],
+        marginLeft: 42,
+    },
 })

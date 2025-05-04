@@ -30,6 +30,10 @@ export function PageList({ data }: Props) {
         data={data}
         keyExtractor={item => item.id}
         renderItem={({item}) => <Page title={item.title} />}
+        showsVerticalScrollIndicator={false}
+        style={s.list}
+        ItemSeparatorComponent={() => <View style={s.separator}/>}
+        scrollEnabled={false}
       />
     </View>
   );
